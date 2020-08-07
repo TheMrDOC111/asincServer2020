@@ -188,3 +188,26 @@ Example:
           ]
 }
 ```
+
+## Error response
+> Return _400 code_ and error message if request not correct  
+
+**Response**
+
+| Parameters  | Description |
+| ------ | ----------- |
+| error   | error message |
+Example:
+- Request for /getInformation path
+``` python
+{
+    "name": 451747
+}
+```
+ - Response
+ 
+``` python
+{
+    'error': 'incorrect request'
+}
+```
