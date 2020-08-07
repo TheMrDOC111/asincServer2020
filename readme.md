@@ -197,7 +197,9 @@ Example:
 | Parameters  | Description |
 | ------ | ----------- |
 | error   | error message |
+
 Example:
+
 - Request for /getInformation path
 ``` python
 {
